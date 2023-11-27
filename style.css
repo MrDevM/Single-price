@@ -24,13 +24,9 @@ body{
 }
 main{
     max-width: 625px;
-    /* display: flex;
-    flex-direction: column; */
     box-shadow: 2px 2px 20px hsl(224, 23%, 85%);
     border-radius: 10px;
 }
-
-/* Upper part */
 .upper{
     background-color: hsl(0, 0%, 100%);
     padding: 1rem 2rem;
@@ -51,9 +47,6 @@ main{
     color: hsl(218, 22%, 67%);
     margin-bottom:10px ;
 }
-
-
-/* ground part */
 .ground{
     color: hsl(204, 43%, 93%);
     display: flex;
