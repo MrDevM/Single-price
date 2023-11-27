@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+p{
+    line-height: 25px;
+    font-size: 16px;
+}
+body{
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    flex-wrap: wrap;
+}
+main{
+    max-width: 625px;
+    /* display: flex;
+    flex-direction: column; */
+    box-shadow: 2px 2px 20px hsl(224, 23%, 85%);
+    border-radius: 10px;
+}
+
+/* Upper part */
+.upper{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem 2rem;
+    border-radius: 10px 10px 0px 0px;
+}
+.upper h2{
+    padding: 20px 0;
+    font-size: 30px;
+    color: hsl(179, 62%, 43%);
+}
+.upper span{
+    display: block;
+    color:hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.upper p{
+    color: hsl(218, 22%, 67%);
+    margin-bottom:10px ;
+}
+
+
+/* ground part */
+.ground{
+    color: hsl(204, 43%, 93%);
+    display: flex;
+}
+.ground div{
+    width: 50%;
+}
+.ground div h3{
+    padding: 15px 0px;
+}
+.left{
+    padding: 1rem 2rem;
+    background-color: hsl(179, 61%, 44%);
+    border-radius: 0px 0px 0px 10px;
+}
+.left span{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+}
+.left .per{
+    display: inline;
+    text-align: center;
+    position: relative;
+    top: -5px;
+    margin-left: 5px;
+    color: hsl(204, 43%, 80%);
+}
+.left button{
+    width: 100%;
+    background-color: hsl(82, 92%, 60%);
+    color: hsl(204, 43%, 93%);
+    padding: 15px 20px;
+    margin: 30px 0px;
+    border-radius: 5px;
+    border: none;
+    font-size:16px;
+    font-weight: 700;  
+    box-shadow: 7px 7px 25px rgba(94, 94, 94, 0.5);
+}
+.access{
+    margin-top: 10px;
+}
+.right{
+    padding: 1rem 2.3rem;
+    background-color: hsl(179, 47%, 58%);
+    border-radius: 0 0 10px 0;
+}
+@media screen and (max-width:600px) {
+    body{
+        margin: 2rem 1rem;
+    }
+    .ground{
+        display: block;
+    }
+    .ground div{
+        width: 100%;
+    }
+    .ground .left{
+        border-radius:0;
+    }
+    .ground .right{
+        border-radius: 0 0 10px 10px;
+    }
+}
